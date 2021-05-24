@@ -6,12 +6,12 @@ router.get('/', async (req, res) => {
   try {
     // Get all projects and JOIN with user data
     const blogData = await Blog.findAll({});
-
+// console.log(blogData)
     // Serialize data so the template can read it
     const blogs = blogData.map((blog) => blog.get({ plain: true }));
-
+console.log(blogs)
     // Pass serialized data and session flag into template
-    res.render('homepage', {
+    res.render('blog', {
       blogs,
       logged_in: req.session.logged_in,
     });
@@ -29,7 +29,7 @@ router.get('/blog', async (req, res) => {
     const blogs = blogData.map((blogsw) => blogsw.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', {
+    res.render('blog', {
       blogs,
       logged_in: req.session.logged_in,
     });

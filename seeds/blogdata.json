@@ -1,21 +1,21 @@
 [
     {
-      "description": "Music Near Me",
-      "details": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+      "description": "A New Concert Experience",
+      "details": "A Mobile App that will allow you to attend all your favorite Concerts virtually",
       "create_date": "May 03, 2012",
       "modified_date": "May 05, 2012",
       "user_id": 1
     },
     {
-      "description": "Music Near Me3",
-      "details": "A mobile556 app that will send you notifications whenever a concert is playing in your area554.",
+      "description": "Stalk an Artist",
+      "details": "A Mobile app that will Show you what your favorite artist does on his downtime.",
       "create_date": "May 21, 2017",
       "modified_date": "June 12, 2017",
       "user_id": 1
     },
     {
-      "description": "Music Near Me4",
-      "details": "A mobile4444 app that will send you notifications whenever a concert is playing in your area44.",
+      "description": "Music Station",
+      "details": "A mobile that will automatically create a playlist of sounds based upon the white noise in your background.",
       "create_date": "January 05, 2018",
       "modified_date": "February 08, 2018",
       "user_id": 1
